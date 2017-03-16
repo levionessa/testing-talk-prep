@@ -23,9 +23,9 @@ function wrapBlogpost(body) {
 ```
 
 ``` es6
+// runapp.js
 import * from 'lib';
 
-// runapp.js
 // untested (we trust that ES6 classes work as advertised and
 // we don't have our own logic in our constructor
 let filewriter = FileWriter();
