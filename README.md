@@ -114,7 +114,7 @@ assert(() => {
 
 ``` es6
 assert(() => {
-  let body = 'we don't care what';
+  let body = "we don't care what";
   let expected = "<div class='article'>" + body + "</div>";
   return wrapBlogpost(body) == expected;
 })
